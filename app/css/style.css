@@ -11,13 +11,12 @@ h1{
 }
 
 h2,h3,h4,h5,h6{
-    font-family: 'hms_gilbert_display_printedRg';
-    font-size: 1.9em;
+    font-family: 'hms_gilbert_script_printedRg';
+    font-size: 2.9em;
     margin: 1em 0px;
 }
 
 p{
-    font-family: 'hms_gilbert_serifregular';
     text-indent: 3em;
 }
 
@@ -43,7 +42,7 @@ form{
 }
 
 input,textarea, button{
-    font-family: 'nexa_scriptregular';
+    font-family: 'hms_gilbert_sansregular';
     margin-top: 1em;
 }
 
