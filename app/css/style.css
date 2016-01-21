@@ -1,32 +1,34 @@
 body{
-    font-family: 'nexa_scriptlight';
+    font-family: 'hms_gilbert_sansregular';
     font-size: larger;
     padding: 1em;
 }
 
 h1{
-    font-family: 'nexa_scriptheavy';
+    font-family: 'hms_gilbert_dry_brushregular';
     font-size: 3.5em;
     padding: 0.1em;
 }
 
 h2,h3,h4,h5,h6{
-    font-family: 'nexa_scriptsemi_bold';
-    font-size: 1.8em;
+    font-family: 'hms_gilbert_display_printedRg';
+    font-size: 1.9em;
     margin: 1em 0px;
 }
 
 p{
-    font-family: 'nexa_scriptregular';
+    font-family: 'hms_gilbert_serifregular';
     text-indent: 3em;
+}
+
+.catchword{
+    font-family: 'hms_gilbert_catchwordsregular';
 }
 
 section{
     padding: 1em;
     width: 43em;
 }
-
-
 
 aside{
     position: fixed;
@@ -47,16 +49,6 @@ input,textarea, button{
 
 input,textarea{
     width: 43em;
-}
-
-.color1{
-    color: aquamarine;
-}
-.color2{
-    color: burlywood;
-}
-.color3{
-    color: aquamarine;
 }
 
 @media screen and (max-device-width: 1081px){
