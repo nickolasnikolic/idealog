@@ -60,6 +60,11 @@ input,textarea{
 }
 
 @media screen and (max-width: 1079px){
+
+    .catchword{
+        display: none;
+    }
+
     input,textarea{
         width: 8em;
     }
