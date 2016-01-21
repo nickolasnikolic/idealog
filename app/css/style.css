@@ -1,0 +1,78 @@
+body{
+    font-family: 'nexa_scriptlight';
+    font-size: larger;
+    padding: 1em;
+}
+
+h1{
+    font-family: 'nexa_scriptheavy';
+    font-size: 3.5em;
+    padding: 0.1em;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'nexa_scriptsemi_bold';
+    font-size: 1.8em;
+    margin: 1em 0px;
+}
+
+p{
+    font-family: 'nexa_scriptregular';
+    text-indent: 3em;
+}
+
+section{
+    padding: 1em;
+    width: 43em;
+}
+
+
+
+aside{
+    position: fixed;
+    right: 1em;
+    top: 4em;
+    width: 160px;
+    height: 600px;
+}
+
+form{
+    margin-top: 1em;
+}
+
+input,textarea, button{
+    font-family: 'nexa_scriptregular';
+    margin-top: 1em;
+}
+
+input,textarea{
+    width: 43em;
+}
+
+.color1{
+    color: aquamarine;
+}
+.color2{
+    color: burlywood;
+}
+.color3{
+    color: aquamarine;
+}
+
+@media screen and (max-device-width: 1081px){
+    h1{
+        font-size: 2em;
+    }
+    h2,h3,h4,h5,h6{
+        font-size: 1.2em;
+    }
+    input,textarea{
+        width: 12em;
+    }
+    section{
+        width: auto;
+    }
+    aside{
+        position: static;
+    }
+}

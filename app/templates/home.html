@@ -1,0 +1,21 @@
+<section>
+  <div>
+    <p>
+      <form>
+        <p><input type="text" id="hallucinationTitle" placeholder="the title of your idea"></input></p>
+        <p><textarea id="hallucinationText" placeholder="your idea"></textarea></p>
+        <p><button id="saveButton">save</button></p>
+      </form>
+    </p>
+  </div>
+  <div>
+    <ul id="hList">
+      <li ng-repeat="h in hData track by $index">
+        <article>
+          <h3>{{h.title}}</h3>
+          <p>{{h.text}}</p>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>
