@@ -52,7 +52,7 @@ input,textarea, button{
 }
 
 input,textarea{
-    width: 9em;
+    width: 8em;
 }
 
 @media screen and (max-device-width: 1081px){
