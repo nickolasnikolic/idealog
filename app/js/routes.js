@@ -1,9 +1,9 @@
 var wdApp = angular.module('wdApp', ['ui.router', 'ngSanitize', 'angular.filter'])
-  .config(['$stateProvider', '$urlRouterProvider',
-    function($stateProvider, $urlRouterProvider) {
+  .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
+    function($stateProvider, $urlRouterProvider, $locationProvider) {
 
       $urlRouterProvider.otherwise('/ideas');
-
+      $locationProvider.html5Mode(true);
       $stateProvider.state('home', {
         url: '/ideas',
         templateUrl: 'templates/home.html',
