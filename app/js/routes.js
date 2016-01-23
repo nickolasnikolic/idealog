@@ -5,7 +5,7 @@ var wdApp = angular.module('wdApp', ['ui.router', 'ngSanitize', 'angular.filter'
       $urlRouterProvider.otherwise('/ideas');
 
       $stateProvider.state('home', {
-        url: 'ideas',
+        url: '/ideas',
         templateUrl: 'templates/home.html',
         controller: 'HomeController',
         onEnter: function($state) {
