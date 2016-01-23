@@ -3,7 +3,7 @@ var wdApp = angular.module('wdApp', ['ui.router', 'ngSanitize', 'angular.filter'
     function($stateProvider, $urlRouterProvider, $locationProvider) {
 
       $urlRouterProvider.otherwise('/ideas');
-      $locationProvider.html5Mode(true);
+
       $stateProvider.state('home', {
         url: '/ideas',
         templateUrl: 'templates/home.html',
@@ -12,5 +12,6 @@ var wdApp = angular.module('wdApp', ['ui.router', 'ngSanitize', 'angular.filter'
           console.log('home/ideas');
         }
       });
+
     }
   ]);
