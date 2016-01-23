@@ -16,7 +16,7 @@ $app->get('/home', function(){
 
   $db = new PDO("mysql:host=$server;dbname=$database;charset=utf8", $user, $pass);
 
-  $stmtUserId = $db->prepare('SELECT * FROM ideas ORDER BY ideas.id DESC LIMIT 200;');
+  $stmtUserId = $db->prepare('SELECT * FROM ideas ORDER BY ideas.id DESC LIMIT 1000;');
   $stmtUserId->execute();
   $resultUserId = $stmtUserId->fetchAll(PDO::FETCH_ASSOC);
 
